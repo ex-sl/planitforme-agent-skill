@@ -18,7 +18,7 @@ test("the adapter refuses to start without named access", () => {
   );
 });
 
-test("a Codex-compatible client can list and call all four tools", async () => {
+test("a standard MCP client can list and call all four tools", async () => {
   const requests = [];
   const fetchImpl = async (url, options) => {
     requests.push({ url, options });

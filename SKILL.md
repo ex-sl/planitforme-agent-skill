@@ -1,6 +1,6 @@
 ---
 name: planitforme-agent
-description: Use a connected PlanItForMe own-agent account to read plans and manage tasks, events, routines, tags, placements, and planning settings through the bounded planner tools. Apply when the user asks Codex to work with their PlanItForMe data; do not use for configuring models or administering the PlanItForMe service.
+description: Use a connected PlanItForMe agent account to read plans and manage tasks, events, routines, tags, placements, and planning settings through the bounded MCP tools. Apply when the user asks an AI agent to work with their PlanItForMe data; do not use for configuring models or administering the PlanItForMe service.
 ---
 
 # PlanItForMe Agent
@@ -17,7 +17,7 @@ include it in tool arguments, output, logs, or files.
    actions or argument shapes. Use its returned manifest instead of assuming a
    fixed action inventory.
 3. If the four tools are unavailable, do not fall back to legacy PlanItForMe
-   tools. Read [references/codex-connection.md](references/codex-connection.md)
+   tools. Read [references/mcp-connection.md](references/mcp-connection.md)
    and explain the missing one-time connection step without requesting the
    credential in chat.
 
